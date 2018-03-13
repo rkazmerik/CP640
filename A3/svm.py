@@ -2,6 +2,9 @@ from sklearn.svm import SVC
 from sklearn.model_selection import train_test_split
 from sklearn.datasets import load_breast_cancer
 
+# IMPORTANT: see README.md for additional project documentation
+# and possible explanation of SVM performance results
+
 #Load the breast cancer data set
 cancer = load_breast_cancer()
 
